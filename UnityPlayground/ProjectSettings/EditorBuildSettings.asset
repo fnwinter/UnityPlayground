@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Sample1/SampleScene.unity
+    path: Assets/Scenes/Skybox/Skybox.unity
+    guid: 29196a04e1f183e43b7271bae0a1dce9
+  - enabled: 1
+    path: Assets/Scenes/Intersection/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1aafdf3b12e15be459afbb6545de8278,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ae44fa6ea4ed4c943803d15daf121ecb,
+      type: 2}
